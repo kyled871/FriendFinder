@@ -6,7 +6,9 @@ module.exports = function(app) {
         res.send("friends")
     });
 
-    
+    app.post("api/friends", function(req, res) {
+        res.send('friends post');
+    })
 
     
 }
