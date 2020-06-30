@@ -170,7 +170,15 @@
 
         <div>
             <button class="btn btn-primary mb-4" id="submit" data-toggle="modal" data-target="#successModal">Submit</button>
+            
+            <a href="/">
+                <button class="btn btn-primary">
+                    <h4><span class="fa fa-arrow-left"></span> Back</h4>
+                </button>
+            </a>
+
         </div>
+
 
 
 
@@ -185,7 +193,9 @@
                     </button>
                     </div>
                     <div class="modal-body">
-                        Your new best-bud is: <a href="/api/friends">Click Here to See!</a>
+                        Your new best-bud is:
+                        <h3 id="matchName"></h3>
+                        <img id="matchImg" src="" alt="" style="max-width: 300px; max-height: 300px;">
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -222,7 +232,9 @@
 
         
         $.post("/api/friends", newFriend, function(data) {
-            
+
+            $("#matchName").text(data.name);
+            $("#matchImg").attr('src', data.photo);
         })
         
         

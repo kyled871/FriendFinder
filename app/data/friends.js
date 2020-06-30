@@ -14,6 +14,24 @@ let friendsData = [
             5,
             5
         ]
+    },
+
+    {
+
+        name: "Monty Mole",
+        photo: "https://www.mariowiki.com/images/thumb/2/20/MontymoleNSMBU.png/749px-MontymoleNSMBU.png",
+        scores: [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
     }
 ];
 
