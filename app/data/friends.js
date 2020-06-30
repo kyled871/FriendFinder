@@ -32,6 +32,23 @@ let friendsData = [
             1,
             1
         ]
+    },
+
+    {
+        name: "Shrek",
+        photo: "https://i.insider.com/5c59e77ceb3ce80d46564023?width=900&format=jpeg&auto=webp",
+        scores: [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ]
     }
 ];
 

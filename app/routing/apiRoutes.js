@@ -49,10 +49,8 @@ module.exports = function(app) {
             }
         }
 
-        
+        // the match is the friend with the most matches
         let match = friendsData[bestMatchPosition];
-
-        console.log(match);
 
         // reply with json obj of best match
         res.json(match);
