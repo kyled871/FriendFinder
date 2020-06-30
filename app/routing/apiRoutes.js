@@ -22,7 +22,6 @@ module.exports = function(app) {
         newFriend.scores = scoresArr;
 
         let comparisonArr = [];
-        console.log(friendsData)
 
         for (let i = 0; i < friendsData.length; i++) {
             let currentComparison = 0;
@@ -57,7 +56,7 @@ module.exports = function(app) {
 
         // adds new friend to api friends data array for later use
         friendsData.push(newFriend);
-    });
 
+    });
     
 }
