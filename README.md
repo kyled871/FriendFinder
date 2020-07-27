@@ -1,4 +1,4 @@
-# FriendFinder
+# [Friend Finder](https://github.com/kyled871/FriendFinder)
 
 Are you in need of a friend? Well, **Friend Finder** will find you your next friend or *soulmate*.
 
