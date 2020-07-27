@@ -1,4 +1,4 @@
-# [Friend Finder](https://github.com/kyled871/FriendFinder)
+# [Friend Finder](https://friendfinder-kyled871.herokuapp.com/)
 
 Are you in need of a friend? Well, **Friend Finder** will find you your next friend or *soulmate*.
 
